@@ -10,6 +10,7 @@ public class CommentDTO implements Serializable {
 	private Date date;
 	private AuthorDTO author;
 	
+	
 	public CommentDTO() {
 	}
 

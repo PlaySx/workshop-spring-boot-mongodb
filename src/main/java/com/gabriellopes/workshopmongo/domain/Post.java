@@ -80,7 +80,7 @@ public class Post implements Serializable {
 		return comments;
 	}
 
-	public void setComments(List<CommentDTO> commenots) {
+	public void setComments(List<CommentDTO> commenots, List<CommentDTO> comments) {
 		this.comments = comments;
 	}
 
